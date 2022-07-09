@@ -396,6 +396,20 @@ footer {
         padding: 3rem;
 }
 
+    .formulario{
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .col:first-child {
+        width: 100%;
+    }
+
+    .col {
+        text-align: center;
+        width: 100%;
+    }
+
 }
 
 /* ----------fin de desktop------------ */
@@ -410,10 +424,26 @@ footer {
         width: revert;
 }
 
+    .formulario{
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .col:first-child {
+        width: 100%;
+    }
+
+    .col {
+        text-align: center;
+        width: 100%;
+    }
+
     .servicios div {
         width: 100%;
         padding: 3rem;
 }
+
+    
 
 }
 
@@ -426,12 +456,19 @@ footer {
         background-color: #fbd7e5;
     }
 
+
     #logo{
         display: inline-block;
         padding-top: 1rem;
         margin-left: 2rem;
     }
     
+    .imagenprincipal {
+        padding: 3rem 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     .informacionfooter1  {
         width: 100%;
         padding: 0;
@@ -469,7 +506,30 @@ footer {
         padding: 3rem;
 }
 
-} 
+    
+    .fotosvarias{
+        display: block;
+        width: 100%;
+}
+
+    .formulario{
+        flex-direction: column;
+        margin: 0%;
+}
+
+    .col:first-child {
+        width: 100%;
+}
+
+    .col {
+        text-align: center;
+        width: 100%;
+}
+
+}
+
+
+
 
 /* ------------fin de mobile------------ */
 
