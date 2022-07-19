@@ -562,6 +562,19 @@ footer {
         padding: 3rem;
     }
 
+    .animacion2{
+        width: auto;
+        height: auto;
+        text-align: -webkit-center;
+    }
+
+    .fotosvarias{
+        grid-template-columns: auto;
+    }
+
+    .informacionfooter1{
+        padding: 0%;
+    }
 
 }
 
@@ -644,6 +657,11 @@ footer {
         width: 100%;
 }
 
+    .animacion2{
+        width: auto;
+        height: auto;
+        text-align: -webkit-center;
+    }
 }
 
 
