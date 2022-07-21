@@ -58,16 +58,17 @@ header {
 
 
 .navmenu li:hover {
-    background-color:  #fe98c3d9
+    background-color:  #fe98c3d9;
 }
 
 
 .navmenu li.activo {
-    background-color: #fe98c3d9
+    background-color: #fe98c3d9;
 }
 
 .active {
-    background-color: #fe98c3d9
+    background-color: #fe98c3d9;
+    border-radius: 2rem;
 }
 
 
@@ -92,7 +93,7 @@ header {
     padding: 2rem 1rem;
     width: 100%;
     box-sizing: border-box;
-}
+} 
 
 /* --------------fin de imagen principal------------ */
 
@@ -576,13 +577,14 @@ footer {
         padding: 0%;
     }
 
+
 }
 
 /* -------------fin de tablet------------ */
 
 /* ---------------mobile----------------- */
 
-@media (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 576px) {
     .body {
         background-color: #ffe5ef;
     }
@@ -604,6 +606,7 @@ footer {
         width: 100%;
         padding: 0;
         text-align: center;
+        font-size: smaller;
     }
 
     .logo2{
@@ -630,41 +633,69 @@ footer {
     width: 100%;
     text-align: center;
     padding: 1.5rem;
-}
+    }
 
     .servicios div {
         width: 100%;
         padding: 3rem;
-}
+    }
 
     
     .fotosvarias{
         display: block;
         width: 100%;
-}
+    }
 
     .formulario{
         flex-direction: column;
         margin: 0%;
-}
-
-    .col:first-child {
-        width: 100%;
-}
+    }
 
     .col {
         text-align: center;
         width: 100%;
-}
+    }
+
+    .col input{
+        width: 100%;
+    }
 
     .animacion2{
         width: auto;
         height: auto;
         text-align: -webkit-center;
     }
+
+    .animacion2 h1{
+        width: 70%;
+        height: 9rem;
+    }
+
+    .form{
+        display: grid;
+        grid-auto-columns: max-content;
+        justify-content: space-around;
+    }
+
+    .servicios h4{
+        font-size: larger;
+    }
+
+    .animacion h1{
+        font-size: 24px;
+        
+    }
+    
+    .nosotrosprincipal p{
+        font-size: smaller;
+        text-align: inherit;
+    }
+
+    .articulos p{
+        font-size: small;
+        text-align: left;
+    }
 }
-
-
 
 
 /* ------------fin de mobile------------ */
