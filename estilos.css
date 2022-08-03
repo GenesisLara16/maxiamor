@@ -298,17 +298,14 @@ footer {
 /* ---------------fin de footer-------------- */
 /* --------------media queries tablet--------------- */
 @media (min-width: 577px) and (max-width: 991px) {
-  .articulos p {
-    margin: 1rem auto;
-    padding: 0rem 1.5rem 0rem 1.5rem;
-    text-align: left;
-    width: revert; }
+  .nosotrosprincipal p {
+    margin: 1.5rem;
+    text-align: justify; }
   .articulos {
     flex-direction: column; }
   .articulos div {
     width: 100%;
-    text-align: center;
-    padding: 1.5rem; }
+    text-align: center; }
   .formulario {
     flex-direction: column;
     margin: 0%; }
@@ -399,6 +396,7 @@ footer {
     text-align: inherit; }
   .articulos p {
     font-size: small;
-    text-align: left; } }
+    text-align: justify;
+    display: table-cell; } }
 
 /* ------------fin de mobile------------ */

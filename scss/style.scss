@@ -449,11 +449,10 @@ footer {
 /* --------------media queries tablet--------------- */
 
 @media (min-width: 577px) and (max-width: 991px) {
-    .articulos p{
-        margin: 1rem auto;
-        padding: 0rem 1.5rem 0rem 1.5rem;
-        text-align: left;
-        width: revert;
+
+    .nosotrosprincipal p{
+        margin: 1.5rem;
+        text-align: justify;
     }
 
     .articulos {
@@ -463,7 +462,6 @@ footer {
     .articulos div {
         width: 100%;
         text-align: center;
-        padding: 1.5rem;
     }
 
     .formulario{
@@ -615,7 +613,9 @@ footer {
 
     .articulos p{
         font-size: small;
-        text-align: left;
+        text-align: justify;
+        display: table-cell;
+    
     }
 }
 
