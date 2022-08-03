@@ -255,15 +255,19 @@ header {
         margin: 1rem auto;
     }
 
-    div {
+    @mixin border ($box-sizing, $text-align) {
         box-sizing: border-box;
-        width: auto;
         text-align: center;
+
+        
+    }
+    div {
+        @include border (border-box, center);
+        width: auto;
     }
 
     h2 {
-        box-sizing: border-box;
-        text-align: center;
+        @include border (border-box, center);
         color: #f92378;
         border-radius: 1rem;
         background-color: #fbd7e5;
@@ -382,14 +386,14 @@ h1{
 
 
 
-#labelTextarea{
+#labelTextarea {
     width: 100%;
     text-align: center;
    
 }
 
     
-textarea{
+textarea {
     display: block;
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -415,7 +419,7 @@ footer {
     align-items: center
 }
 
-.gradientes2{
+.gradientes2 {
     background-image: linear-gradient(#fbe7ee, #fb618d);
 }
 

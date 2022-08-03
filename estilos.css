@@ -171,8 +171,8 @@ header {
     margin: 1rem auto; }
   .fotosvarias div {
     box-sizing: border-box;
-    width: auto;
-    text-align: center; }
+    text-align: center;
+    width: auto; }
   .fotosvarias h2 {
     box-sizing: border-box;
     text-align: center;
