@@ -372,8 +372,7 @@ footer {
     flex-direction: column;
     margin: 0%; }
   .col {
-    text-align: center;
-    width: 100%; }
+    display: contents; }
   .col input {
     width: 100%; }
   .animacion2 {
