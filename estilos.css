@@ -5,7 +5,6 @@
 /* ---------estilo body----------- */
 .body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  max-width: 1550px;
   margin: auto;
   background-color: #ffe7f0; }
 
@@ -306,6 +305,10 @@ footer {
   .articulos div {
     width: 100%;
     text-align: center; }
+  .nav {
+    background-color: #fda3c89a;
+    text-align: center;
+    border-radius: 1rem; }
   .formulario {
     flex-direction: column;
     margin: 0%; }
@@ -352,6 +355,10 @@ footer {
     right: 0px;
     width: 33%;
     display: block; }
+  .nav {
+    background-color: #fda3c893;
+    text-align: center;
+    border-radius: 1rem; }
   .navmenu li {
     font-family: serif;
     list-style: none;
