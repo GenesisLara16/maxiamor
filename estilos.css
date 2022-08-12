@@ -21,23 +21,19 @@ header {
 .gradientes1 {
   background-image: linear-gradient(#fb618d, #fbe7ee); }
 
-.navmenu li:hover {
-  background-color: #fe98c3d9; }
-
-.navmenu li.activo {
-  background-color: #fe98c3d9; }
-
-.active {
-  background-color: #fe98c3d9;
-  border-radius: 2rem; }
-
-.navmenu li a {
-  text-decoration: none;
-  color: black;
-  font-size: large; }
-
 .nav {
   min-width: -webkit-fill-available; }
+  .nav .li a {
+    text-decoration: none;
+    color: black;
+    font-size: large; }
+  .nav .li:hover {
+    background-color: #fe98c3d9; }
+  .nav .li.active {
+    background-color: #fe98c3d9; }
+  .nav .active {
+    background-color: #fe98c3d9;
+    border-radius: 2rem; }
 
 /* -------fin de header---------- */
 /* ----------imagen principal, main---------- */
