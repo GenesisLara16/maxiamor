@@ -52,8 +52,6 @@ header {
   .nosotrosprincipal h1 {
     background-color: #fed2e4;
     border-radius: 3rem;
-    height: 7rem;
-    font-size: larger;
     width: 97%;
     text-align: center;
     margin: 0 auto; }
@@ -64,7 +62,7 @@ header {
 
 .animacion h1 {
   color: #f92378;
-  font-size: 40px;
+  font-size: 50px;
   animation-name: efecto;
   animation-iteration-count: infinite;
   animation-duration: 5s;
@@ -94,8 +92,7 @@ header {
   justify-content: center;
   flex-direction: row; }
   .articulos h3 {
-    color: #f92378;
-    margin: 2rem; }
+    color: #f92378; }
   .articulos div {
     box-sizing: border-box;
     width: 33%;
@@ -108,7 +105,7 @@ header {
     text-align: left;
     font-size: small; }
   .articulos img {
-    width: 65%; }
+    width: 60%; }
 
 /* -------------fin section articulo nosotros------------ */
 /* ---------------section servicios------------- */
@@ -188,13 +185,11 @@ h1 {
 .animacion2 h1 {
   background-color: #fed2e4;
   border-radius: 3rem;
-  height: 6rem;
-  font-size: medium;
   width: 90%; }
 
 .animacion2 h1 {
   color: #f92378;
-  font-size: 40px;
+  font-size: 50px;
   animation-name: efecto;
   animation-iteration-count: infinite;
   animation-duration: 5s;
@@ -222,7 +217,6 @@ h1 {
   text-align: center; }
   .col p {
     text-align: initial;
-    margin: 1rem;
     padding: 1rem; }
   .col label {
     margin-bottom: 1rem;
@@ -241,7 +235,8 @@ h1 {
     height: 40px; }
 
 .col:first-child {
-  width: 30%; }
+  width: 30%;
+  margin: 0rem 0rem 1rem 5rem; }
 
 .fil {
   display: flex;
@@ -362,9 +357,10 @@ footer {
     font-weight: bold;
     padding: 4px 0px 2px 2px; }
   .articulos div {
-    width: 100%;
-    text-align: center;
-    padding: 1.5rem; }
+    width: 51%;
+    text-align: center; }
+  .articulos img {
+    width: 90%; }
   .servicios div {
     width: 100%;
     padding: 3rem; }
@@ -377,14 +373,15 @@ footer {
   .col {
     display: contents; }
   .col input {
-    width: 100%; }
-  .animacion2 {
-    width: auto;
-    height: auto;
-    text-align: -webkit-center; }
+    width: 100%;
+    margin-bottom: 1rem; }
+  .col label {
+    margin-bottom: 0rem;
+    text-align: left; }
   .animacion2 h1 {
-    width: 70%;
-    height: 9rem; }
+    width: 75%;
+    height: 6rem;
+    font-size: 20px; }
   .form {
     display: grid;
     grid-auto-columns: max-content;
@@ -399,6 +396,7 @@ footer {
   .articulos p {
     font-size: small;
     text-align: justify;
-    display: table-cell; } }
+    display: table-cell;
+    padding: 1rem; } }
 
 /* ------------fin de mobile------------ */
