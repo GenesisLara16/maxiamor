@@ -1,0 +1,193 @@
+/* --------------media queries tablet--------------- */
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+    .hamburger-fix {
+        flex-direction: unset !important;
+    }
+
+    .nosotrosprincipal p{
+        margin: 1.5rem;
+        text-align: justify;
+    }
+
+    .articulos {
+        flex-direction: column;
+    }
+
+    .articulos div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav{
+        background-color: #fda3c89a;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .formulario{
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .col:first-child {
+        width: 100%;
+    }
+
+    .col {
+        text-align: center;
+        width: 100%;
+    }
+
+    .servicios div {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .animacion2{
+        width: auto;
+        height: auto;
+        text-align: -webkit-center;
+    }
+
+    .fotosvarias{
+        grid-template-columns: auto;
+    }
+
+    .informacionfooter1{
+        padding: 0%;
+    }
+
+
+}
+
+/* -------------fin de tablet------------ */
+
+/* ---------------media queries mobile----------------- */
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .body {
+        background-color: #ffe5ef;
+    }
+
+
+    #logo{
+        display: inline-block;
+        padding-top: 1rem;
+        margin-left: 2rem;
+    }
+    
+    .imagenprincipal {
+        padding: 3rem 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .informacionfooter1  {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .logo2{
+        display: none;
+    }
+
+    .navmenu{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 33%; 
+        display: block;
+    }
+
+    .nav{
+        background-color: #fda3c893;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .navmenu li{
+        font-family: serif;
+        list-style: none;
+        width: 100%;
+        font-weight: bold;
+        padding: 4px 0px 2px 2px;
+    }
+
+    .articulos div {
+    width: 51%;
+    text-align: center;
+    }
+
+    .articulos img {
+        width: 90%;
+    }
+
+    .servicios div {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .fotosvarias{
+        display: block;
+        width: 100%;
+    }
+
+    .formulario{
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .col {
+        display: contents;
+    }
+
+    .col input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .col label {
+        margin-bottom: 0rem;
+        text-align: left;
+    }
+
+    .animacion2 h1{
+        width: 75%;
+        height: 6rem;
+        font-size: 20px;
+    }
+
+    .form{
+        display: grid;
+        grid-auto-columns: max-content;
+        justify-content: space-around;
+    }
+
+    .servicios h4{
+        font-size: larger;
+    }
+
+    .animacion h1{
+        font-size: 24px;
+        
+    }
+    
+    .nosotrosprincipal p{
+        font-size: smaller;
+        text-align: inherit;
+    }
+
+    .articulos p{
+        font-size: small;
+        text-align: justify;
+        display: table-cell;
+        padding: 1rem;
+    }
+}
+
+
+/* ------------fin de mobile------------ */

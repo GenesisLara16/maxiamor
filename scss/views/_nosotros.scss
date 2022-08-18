@@ -1,0 +1,98 @@
+/* ---------------main nosotros-------------- */
+
+.nosotrosprincipal {
+    display: block;
+    text-align: justify;
+    padding-top: 1rem;
+    margin: 1rem 2rem 0rem 2rem;
+
+    h1 {
+        background-color: #fed2e4;
+        border-radius: 3rem;
+        width: 97%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    p {
+        margin: 1.5rem;
+        font-size: medium;
+        text-align: left;
+    }
+    
+}
+
+.animacion h1{
+    color: #f92378;
+    font-size: $font-size;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes efecto{
+    10%{
+        color: #f92378;
+    }
+
+    25%{
+        color: #b450c4;
+    }
+
+    75%{
+        color: #f92378;
+    }
+
+    100%{
+        color: #f88de4;
+    }
+    
+}
+
+.navbar-toggler {
+    color: #f58bc0d6;
+    background-color: #f5a8c7f7;
+    border: var(--bs-border-width) solid #f068e2c9;
+}
+
+
+/* --------------fin de main nosotros------------ */
+
+
+/* ---------------section articulos nosotros-------------- */
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    justify-content: center;
+    flex-direction: row;
+     
+    h3 {
+        color: $color-texto;
+    }
+
+    div {
+        box-sizing: border-box;
+        width: 33%;
+        text-align: center;
+        padding: 1.5rem;
+        flex-grow: 1;
+    }
+
+    p {
+        margin: 1rem 4rem 0rem 4rem;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        text-align: left;
+        font-size: small;
+    }
+
+    img {
+        width: 60%;
+    }
+    
+}
+
+
+/* -------------fin section articulo nosotros------------ */

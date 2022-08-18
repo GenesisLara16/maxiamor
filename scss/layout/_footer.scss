@@ -1,0 +1,35 @@
+/* ----------------footer------------------- */
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.gradientes2 {
+    background-image: linear-gradient(#fbe7ee, #fb618d);
+}
+
+
+.informacionfooter1 {
+    flex-grow: 1;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+
+.logo2 {
+    height: 3rem;
+}
+
+
+.informacionfooter2 img{
+    height: 25px;
+    margin-top: 5px;
+}
+
+/* ---------------fin de footer-------------- */

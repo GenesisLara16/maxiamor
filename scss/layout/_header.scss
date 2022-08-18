@@ -1,0 +1,45 @@
+/* ------------------header---------------------- */
+
+#logo {
+    display: block;
+    text-align: center;
+    height: 6rem;
+}
+
+
+header {
+    height: 150px;
+}  
+
+
+.gradientes1{
+    background-image: linear-gradient(#fb618d, #fbe7ee);
+}
+
+
+.nav {
+    min-width: -webkit-fill-available;
+
+    .li a{
+        text-decoration: none;
+        color: black;
+        font-size: large;
+    }
+
+    .li:hover {
+        background-color:  #fe98c3d9;
+    }
+    
+    
+    .li.active {
+        background-color: #fe98c3d9;
+    }
+
+    .active {
+        background-color: #fe98c3d9;
+        border-radius: 2rem;
+    }
+}
+
+
+/* -------fin de header---------- */

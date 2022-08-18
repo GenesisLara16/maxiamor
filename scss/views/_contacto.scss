@@ -1,0 +1,80 @@
+/* ----------------formulario de contacto---------------- */
+
+.formulario {
+    display: flex; 
+    margin: 1rem;
+    padding: 1rem;  
+}
+
+
+.col {
+    box-sizing: border-box;
+    text-align: center;
+
+    p {
+        text-align: initial;
+        padding: 1rem;
+    }
+    
+    
+    label {
+        margin-bottom: 1rem;
+        display: inline-table;
+        width: 13%;
+        text-align: left;
+    }
+    
+    
+    input {
+        font-size: medium;
+        width: 28%;
+        margin-right: 1rem;
+        border-radius: 1rem;
+        border-color: #f92378;
+    }
+
+    img {
+        margin-right: 1rem;
+        width: 40px;
+        height: 40px;
+        
+    }
+}
+
+
+.col:first-child {
+    width: 30%;
+    margin: 0rem 0rem 1rem 5rem;
+}
+
+
+.fil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#labelTextarea {
+    width: 100%;
+    text-align: center;
+   
+}
+
+    
+textarea {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border-color: #f92378;
+}
+
+.form {
+    margin: 2rem;
+}
+
+/* --------fin de formulario------------ */
